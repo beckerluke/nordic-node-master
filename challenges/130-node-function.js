@@ -10,7 +10,9 @@
 
 module.exports = function (numberOfBoxes) {
     // YOUR CODE HERE
-
+    numberOfBoxes /= 2;
+    numberOfBoxes += 2;
+    return numberOfBoxes;
 }
 
 // now run `node test.js` in the terminal, to see what happens
@@ -19,6 +21,7 @@ module.exports = function (numberOfBoxes) {
 
 // Take a look at `test.js` and think about what is happening here.
 // What do the first few lines do? How do `module.exports` and `require` relate to each other?
-
+// The first few lines are importing information that is being exported from the 110, 120, and 130 files and saving them into
+// individual variables within the test.js file. 
 // STRETCH: You may not have half of a dog
 // If 3.5 dogs are required, the response should be 4

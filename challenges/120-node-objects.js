@@ -3,9 +3,10 @@
 // the number of mushers should be 20
 
 module.exports = {
-    mushers: 0,
+    mushers: 20,
     dogs: 150,
     boxes: 140,
 };
 
 // now run `node test.js` in the terminal, to see what happens
+// it passes the nodeObjects test 
