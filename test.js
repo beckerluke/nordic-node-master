@@ -1,6 +1,7 @@
 const nodeNumbers = require('./challenges/110-node-numbers');
 const nodeObjects = require('./challenges/120-node-objects');
 const nodeFunction = require('./challenges/130-node-function');
+const vialFinderFunction = require('./challenges/140-stretch-vial-finder');
 
 if (nodeNumbers == 20) {
     console.log('Passed nodeNumbers test!');
@@ -38,3 +39,4 @@ if (nodeFunction(8) == 6) {
     XXXXXXXXXXX`);
 }
 
+vialFinderFunction(['vial', 'vial', 'dog food', 'tacos']); 
